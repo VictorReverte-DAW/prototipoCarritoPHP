@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: #212529;
+    color:white;
+
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+header i{
+    font-size: 40px;
+}
+header .badge{
+    background-color: #212529;
+    color: #009999;
+    font-size: 20px;
+
+}
+img{
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 300px;
+    min-height:  300px;
+    margin: 0 auto;
+}
+img:hover{
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 400px;
+    min-height:  400px;
+    margin: 0 auto;
+}
+.form-control{
+    background-color: #212529;
+    color:white;
+    border-color: #0056B3;
+}
+article{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+input[type="submit"]{
+
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
